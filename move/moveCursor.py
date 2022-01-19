@@ -31,5 +31,5 @@ while True:
     newY = random.randint(0,screenheight)
     print('(x,y) : (',newX,',',newY,')')
     
-    pyautogui.dragTo(newX,newY) #drag mouse to random number pixels
+    pyautogui.dragTo(newX,newY) #drag mouse to random number pixels 
     
