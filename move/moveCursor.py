@@ -12,7 +12,7 @@ def findCenter():
 
 while True:    
     moveTime = 30
-    
+
     # move cursor every 30 sec 
     sleep(moveTime)
 
