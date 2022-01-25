@@ -3,11 +3,11 @@ import random
 from time import time, sleep
 
 # set variables
-pyautogui.FAILSAFE= False
+pyautogui.FAILSAFE = False
 
 def findCenter():
-    width, height= pyautogui.size()
-    return (width/2, height/2)
+    width, height = pyautogui.size()
+    return width / 2, height / 2
 
 
 while True:    
